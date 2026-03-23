@@ -221,9 +221,11 @@ const Navbar = ({
                 ),
               )}
               <div className="pt-8 flex flex-col gap-4 max-w-sm mx-auto w-full">
-                <button className="w-full py-4 rounded-2xl border border-primary font-bold text-primary hover:bg-primary/5 transition-colors">
+                <a
+                  href="https://admin.schoolycore.com/"
+                  className="w-full py-4 rounded-2xl border border-primary font-bold text-primary hover:bg-primary/5 transition-colors">
                   Sign In
-                </button>
+                </a>
                 <button className="w-full py-4 rounded-2xl bg-brand-accent text-white font-bold shadow-xl shadow-brand-accent/20 hover:scale-[1.02] transition-transform">
                   Book Demo
                 </button>
