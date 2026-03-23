@@ -171,7 +171,7 @@ const Navbar = ({
             <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
             <div className="hidden lg:flex items-center gap-4">
               <a 
-              href="https://admin.schoolycore.com"
+              href="admin.schoolycore.com"
               
               className="text-xs font-bold text-primary hover:text-brand-accent transition-colors">
                 Sign In
