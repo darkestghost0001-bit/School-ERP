@@ -142,7 +142,7 @@ const Navbar = ({
   <div className="flex items-center">
     
     <img
-      src="/apple-touch-iconn.png"
+      src="/logo1.png"
       alt="logo"
       className="h-10 md:h-12 object-contain"
     />
